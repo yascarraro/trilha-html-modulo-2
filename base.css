@@ -1,38 +1,76 @@
-html, body {
+html,
+body {
     margin: 0;
 }
+
+a {
+    text-decoration: none;
+}
+
 body {
-    background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+    font-family: 'calibri light', sans-serif;
 }
 
 .wrapper {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
 }
+
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
 }
+
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: rgb(217, 224, 251);
     padding: 10px 20px 0px;
 }
+
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    background-color: rgb(5, 29, 108);
+    height: 300px;
 }
+
+.header img {
+    height: 100%;
+}
+
 .content {
     background-color: white;
     min-height: 300px;
     padding: 20px;
 }
+
+.content img {
+    width: 30%;
+}
+
+.content p {
+    width: 90%;
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-color: rgb(82, 106, 185);
+    min-height: 100px;
+    padding: 20px;
+    color: white;
+}
+
+.footer .footer-redes {
+    display: flex;
+    gap: 20px;
+}
+
+.footer a {
+    color: white;
+}
+
+.footer a:hover {
+    color: black;
+    background-color: white;
 }
